@@ -1,17 +1,18 @@
 .MenuLateral {
-    min-height: 100vh;
+    min-height: 100.5vh;
     width: 15%;
     background-color: #e40909;
-    padding: 10px;
     float: inline-start;
 }
 
 .Botones{
+    margin-top: 20px;
     background-color: #00b7ff;
     padding: 30px;
     margin-bottom: 35px;
     text-align: center;
-    border: 1px solid #000000;
+    border: 2px solid #000000;
+    border-radius: 10px;
 }
 
 .ParteSuperior {
@@ -40,4 +41,27 @@
     margin-left: auto;
     justify-content: center;
     align-items: center;
+}
+
+.contenidoApartado2{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    min-height:80vh;
+    background-color: #ff00b3
+}
+
+.contenidoApartado3{
+    width: 50%;
+    display: flex;
+    min-height:90vh;
+    float: inline-start;
+    background-color: #2d8dcc
+}
+.contenidoApartado31{
+    width: 35%;
+    min-height:90vh;
+    float: inline-end;
+    background-color: blueviolet;
 }
